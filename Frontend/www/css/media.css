@@ -1,0 +1,86 @@
+/*******************************************************************
+     768 -
+*******************************************************************/
+@media (max-width: 768px) {
+
+    .sidebar .order-list-title {
+        font-size: 1.4rem;
+        padding-left: 0;
+    }
+
+    .sidebar .clear-order {
+        margin-bottom: 20px;
+        float: none;
+    }
+
+    .call-to-action .slogan {
+        font-size: 1.2rem;
+    }
+
+}
+
+
+/*******************************************************************
+     736 -
+*******************************************************************/
+@media (max-width: 736px) {
+
+    .pizza-card {
+        min-width: 100%;
+    }
+}
+
+/*******************************************************************
+     460 -
+*******************************************************************/
+@media (max-width: 460px) {
+html {
+    font-size: 7px;
+}
+
+    .call-to-action .slogan {
+        font-size: 1.6rem;
+    }
+
+    header .phone {
+        font-size: 2rem;
+        padding-bottom: 5px;
+        margin-right: 0;
+    }
+
+    .img-aside {
+        max-height: 75px;
+        max-width: 75px;
+    }
+
+    span.diametr {
+        margin-right: 10px;
+    }
+
+    a.btn-circle {
+        border-radius: 50%;
+        padding: 0 2px;
+    }
+
+    .calc .count-clear {
+        margin-left: 10px;
+    }
+
+    span.price {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+/*******************************************************************
+     360 -
+*******************************************************************/
+@media (max-width: 460px) {
+
+    header .phone {
+        font-size: 1.5rem;
+    }
+}
+

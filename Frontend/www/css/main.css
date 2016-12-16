@@ -1,0 +1,279 @@
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+.pad-l-125 {
+    padding-left: 125px !important;
+}
+
+.discount-badge {
+    position: fixed;
+    bottom: 0;
+    background: #ea862e;
+    z-index: 99;
+    width: 100px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.discount-badge,
+.pizza-card .description::first-letter,
+header .site-title {
+    text-transform: uppercase;
+}
+.discount-badge,
+header .site-title {
+    left: 9px;
+    border-left: 1px solid #d16200;
+    border-right: 1px solid #d16200;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.discount-triangles {
+    width: 100px;
+    height: 11px;
+    top: -11px;
+    left: -1px;
+    background-image: url(../img/discount.svg);
+    background-size: 100px 11px;
+    background-repeat: no-repeat;
+    padding: 0!important;
+    margin: 0!important;
+    position: absolute;
+}
+
+.discount-badge .discount-title {
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px dotted #d16301;
+    margin-bottom: 7px;
+    padding-bottom: 3px;
+}
+
+.discount-badge .discount {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.content-block {
+    background-color: #fffff5;
+}
+
+.content {
+    padding-top: 80px;
+}
+
+h2.page-title {
+    font-size: 3rem;
+}
+
+h2 span.badge.orange {
+    background: orange;
+    margin-left: 15px;
+}
+
+.all-pizza-filter {
+    text-align: center;
+}
+
+ul.nav.nav-pills.pizza-filter {
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: orange;
+}
+
+.nav-pills>li>a {
+    color: orange;
+    font-weight: 400;
+}
+
+.pizza-card {
+    padding-top: 30px;
+    height: 100%;
+    min-width: 275px;
+}
+
+.pizza-card h2 {
+    font-size: 2.9rem;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail h3 {
+    margin: 0;
+}
+
+.thumbnail span.label {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.pizza-card .pizza-title {
+    font-size: 3rem;
+    color: #ec6a1c;
+    font-weight: 700;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.pizza-card .pizza-type {
+    font-size: 1.2rem;
+    color: #a3a0a0;
+}
+
+.pizza-card .description {
+    font-size: 1.4rem;
+    max-height: 65px;
+    overflow: hidden;
+}
+
+.pizza-card .pizza-big,
+.pizza-card .pizza-small {
+    text-align: center;
+}
+
+.pizza-card .price span {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.btn-warning {
+    background-image: -webkit-linear-gradient(top,#f0ad4e 0,#eb9316 100%);
+    background-image: -o-linear-gradient(top,#f0ad4e 0,#eb9316 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f0ad4e),to(#eb9316));
+    background-image: linear-gradient(to bottom,#f0ad4e 0,#eb9316 100%);
+    background-repeat: repeat-x;
+    border-color: #e38d13;
+}
+
+.sidebar {
+    background: #fff;
+    z-index: 999;
+    padding: 35px 0 0 0;
+    box-shadow: rgba(0,0,0,.2) -3px 3px 10px;
+    position: fixed!important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.sidebar .order {
+    padding-bottom: 15px;
+}
+
+.sidebar .order-list-title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.7;
+    padding-left: 15px;
+}
+
+.sidebar .clear-order {
+    float: right;
+    margin-top: 15px;
+    padding-right: 15px;
+    font-size: 10px;
+    line-height: 11px;
+    font-weight: 400;
+    color: rgba(0,0,0,.5);
+}
+
+.badge.orange {
+    background: orange;
+    margin-left: 5px;
+}
+
+.call-to-action {
+    margin-top: 15px;
+    background-color: #F5F5F5;
+    width: 100%;
+    display: block;
+    padding: 50px 0;
+    margin-bottom: 10px;
+}
+
+.call-to-action .slogan {
+    font-size: 1.6rem;
+    color: #4e4e4e;
+    text-align: center;
+}
+
+.sidebar button {
+    font-size: 1.8rem;
+}
+
+footer {
+    padding: 40px;
+    color: grey;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+}
+
+.order-form {
+    padding: 30px 10px;
+    position: relative;
+}
+.img-aside {
+    position: absolute;
+    right: -48px;
+    top: 40px;
+    border-radius: 50% 0 0 50%;
+    max-height: 96px;
+    max-width: 96px;
+}
+
+.order-form p.order-title {
+    line-height: 1.6;
+    font-size: 2rem;
+    color: #ec890e;
+}
+
+.calc {
+    margin: 15px 0;
+}
+
+span.diametr {
+    margin-right: 20px;
+}
+
+span.price {
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+a.btn-circle {
+    border-radius: 50%;
+    padding: 5px 8px;
+}
+
+.calc .count-clear {
+    margin-left: 25px;
+    color: #ec890e;
+}
+
+
+footer p {
+    text-align: center;
+}
+
+
+#total-price {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.only {
+    margin: 0 25%;
+}
+
